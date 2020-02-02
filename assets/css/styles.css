@@ -1,0 +1,20 @@
+/*
+ body {
+    background-color: blueviolet;
+} */
+
+.blank-row {
+    height: 25px;
+    color: lightblue;
+    background-color: lightblue;
+}
+
+.page-heading {
+    border-bottom: 3px solid lightblue;
+    margin-bottom: 10px;
+}
+
+/*
+.row-bot-mrg {
+    padding-bottom: 10px;
+} */
