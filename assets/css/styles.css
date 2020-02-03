@@ -1,20 +1,10 @@
-/*
- body {
-    background-color: blueviolet;
-} */
+/*  ---------------------------------------------------------------
+    Create page heading class to add a bottom border to separate 
+    the page title from the main data on the page.
+    ---------------------------------------------------------------
+*/
 
-.blank-row {
-    height: 25px;
-    color: lightblue;
-    background-color: lightblue;
-}
 
 .page-heading {
     border-bottom: 3px solid lightblue;
-    margin-bottom: 10px;
 }
-
-/*
-.row-bot-mrg {
-    padding-bottom: 10px;
-} */
