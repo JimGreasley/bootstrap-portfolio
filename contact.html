@@ -15,59 +15,51 @@
 <body>
 
     <!-- This page is comprised of two containers utilizing the Bootstrap Grid.        -->
-    <!-- The first is a header which contains the Navbar.                              -->
+    <!-- The first is defined as a piece of the Navbar.                                -->
     <!-- The second is a section which lays out the rows and columns containing        -->
     <!-- the "Contact" title and the Form elements, with a Submit button, used to      -->
     <!-- capture name, email address and text message.                                 -->
     <!-- A footer element contains the copyright notification.                         -->
     <!--                                                            RJG  Feb 02, 2020  -->
 
-    <header class="container-fluid">
-
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-                    <a class="navbar-brand" href="#">Robert Greasley</a>
-                    <!-- Not sure this is needed
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="portfolio.html">Porfolio</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Robert Greasley
+          </a>
+          <!-- Not sure this is needed
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        -->
+          <ul class="navbar-nav ml-auto flex-row">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="portfolio.html">Porfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+    
         </div>
-    </header>
+      </nav>
 
     <br>
 
-    <section class="container-fluid">
+    <section class="container">
 
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8 mb-3 page-heading">
+            <div class="col-10 offset-1 mb-3 page-heading">
                 <h3>Contact</h3>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
+             <div class="col-10 offset-1">
                 <form>
                     <div class="form-group">
                         <label for="formGroupExampleInput">Name</label>
@@ -93,9 +85,18 @@
 
     </section>
 
+<!--
     <footer class="text-center">
         <small>Copyright &copy; </small>
     </footer>
+-->
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+          <span class="text-muted"><small>Copyright &copy; </small>
+          </span>
+        </div>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
