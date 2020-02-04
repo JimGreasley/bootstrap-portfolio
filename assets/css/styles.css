@@ -1,15 +1,3 @@
-/*  ---------------------------------------------------------------
-    Set body backgroung color to make containers stand out.
-    ---------------------------------------------------------------
-
-body {
-    background-color: steelblue;
-}
-
-#aboutme {
-    background-color: white;
-} 
-*/ 
 
 /*  ---------------------------------------------------------------
     Create page heading class to add a bottom border to separate 
@@ -18,11 +6,11 @@ body {
 */
 
 .page-heading {
-    border-bottom: 3px solid lightblue;
+    border-bottom: 2px solid lightblue;
 }
 
 /*  ---------------------------------------------------------------
-    Special formatting for links on Nav bar.
+    Special formatting for links on Nav bar.  Thank you, Tucker.
     ---------------------------------------------------------------
 */
 
