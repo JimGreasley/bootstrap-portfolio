@@ -2,111 +2,118 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
- <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
 
-    <!-- This page is comprised of two containers utilizing the Bootstrap Grid.        -->
-    <!-- The first is defined as a piece of the Navbar.                                -->
-    <!-- The second is a section which lays out the rows and columns containing        -->
-    <!-- the "Contact" title and the Form elements, with a Submit button, used to      -->
-    <!-- capture name, email address and text message.                                 -->
-    <!-- A footer element contains the copyright notification.                         -->
-    <!--                                                            RJG  Feb 02, 2020  -->
+  <!-- This page is comprised of two containers utilizing the Bootstrap Grid.        -->
+  <!-- The first is defined as a piece of the Navbar.                                -->
+  <!-- The second is a section which lays out the rows and columns containing        -->
+  <!-- the "Contact" title and the Form elements, with a Submit button, used to      -->
+  <!-- capture name, email address and text message.                                 -->
+  <!-- A footer element contains the copyright notification.                         -->
+  <!--                                                            RJG  Feb 02, 2020  -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Robert J ("Jim") Greasley
-          </a>
-          <!-- Not sure this is needed
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        -->
-          <ul class="navbar-nav ml-auto flex-row">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">Porfolio</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        Robert J ("Jim") Greasley
+      </a>
+
+      <ul class="navbar-nav ml-auto flex-row">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About </a>
+          <!-- <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a> -->
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Porfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <br>
+
+  <section class="container">
+
+    <div class="row justify-content-between mb-3">
+      <!-- <div class="col-10 offset-1 mb-3 page-heading"> -->
+      <div class="col-3 offset-1">
+        <h3>Contact</h3>
+      </div>
+      <div class="col-2 btn-group">
+        <button type="button" class="btn btn-outline-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Phone and Email
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">602-549-6238</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">azjimgreasley@gmail.com</a>
         </div>
-      </nav>
+      </div>
+    </div>
 
-    <br>
+    <div class="row">
+      <div class="col-10 offset-1">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Name</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+          </div>
 
-    <section class="container">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
+          </div>
 
-        <div class="row">
-            <div class="col-10 offset-1 mb-3 page-heading">
-                <h3>Contact</h3>
-            </div>
-        </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+          </div>
 
-        <div class="row">
-             <div class="col-10 offset-1">
-                <form>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
-                    </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">Email</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com">
-                    </div>
+        </form>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-                    </div>
+      </div>
+    </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+  </section>
 
-                </form>
-
-            </div>
-        </div>
-
-    </section>
-
-<!--
+  <!--
     <footer class="text-center">
         <small>Copyright &copy; </small>
     </footer>
 -->
 
-    <footer class="footer mt-auto py-3">
-        <div class="container text-center">
-          <span class="text-muted"><small>Copyright &copy; </small>
-          </span>
-        </div>
-      </footer>
+  <footer class="footer mt-auto py-3">
+    <div class="container text-center">
+      <span class="text-muted"><small>Copyright &copy; </small>
+      </span>
+    </div>
+  </footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
