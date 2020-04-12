@@ -20,7 +20,7 @@
     <!-- A footer element contains the copyright notification.                         -->
     <!--                                                            RJG  Feb 02, 2020  -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 Robert J ("Jim") Greasley
@@ -32,71 +32,125 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="portfolio.html">Porfolio</a>
                 </li>
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                </li> 
+            </ul>
+        </div>
+    </nav> -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <!-- navbar-light bg-light -->
+        <div class="container-fluid">
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Robert J ("Jim") Greasley</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="https://github.com/JimGreasley" class="text-dark" target="_blank">
+                GitHub
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="https://linkedin.com/in/jimgreasley" class="text-dark" target="_blank">
+                LinkedIn
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="index.html">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-dark" href="portfolio.html">Porfolio</a>
             </ul>
 
+            <ul class="nav">
+              <li class="ml-auto flex-row">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Phone and Email
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-sm-left dropdown-menu-md-right">
+                   <a class="dropdown-item" href="#">602-549-6238</a>
+                   <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">azjimgreasley@gmail.com</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+    
         </div>
-    </nav>
-
+      </nav>
     <br>
 
     <section class="container">
 
         <div class="row mb-3">
-            <!-- <div class="col-12 offset-1 page-heading"> -->
-            <div class="col-10 offset-1 page-heading">
+            <!-- <div class="col-10 offset-1 page-heading"> -->
+            <div class="col-12 page-heading">
                 <h3>Portfolio</h3>
             </div>
         </div>
 
-        <div class="row">
-             <div class="col-10 offset-1">
-                <!-- <div class="row"> -->
-                <div class="card-deck">
-                    <div class="card" style="width: 20rem;">
-                        <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Match My Mood</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="https://bfeliz.github.io/match-my-mood/" class="btn btn-primary">Match My Mood</a>
-                        </div>
-                      </div>
-
-                    <div class="card" style="width: 20rem;">
-                        <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Wild Kards</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="https://dry-meadow-70247.herokuapp.com/" class="btn btn-primary">Wild Kards</a>
-                        </div>
+        <div class="row row-cols-1 row-cols-md-3">
+            <div class="col mb-4">
+               <div class="card shadow p-3 mb-5 bg-white rounded h-100">
+                    <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Match My Mood</h5>
+                        <p class="card-text">A collaborative project that uses color, sound, images, and more to immerse the user into the mood they have chosen. If they want a pick-me-up they can counter their current mood, or choose to match to the weather or time of day.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/bfeliz/match-my-mood" target="_blank"
+                            class="btn btn-primary">GitHub</a>
+                        <a href="https://bfeliz.github.io/match-my-mood/" target="_blank"
+                            class="btn btn-primary">Try It</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-10 offset-1">
-                <!-- <div class="row"> -->
-                <div class="card-deck">
- 
-                    <div class="card" style="width: 20rem;">
-                        <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Work Day Scheduler</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="https://jimgreasley.github.io/work-day-scheduler/" class="btn btn-primary">Work Day Scheduler</a>
-                        </div>
-                      </div>
-
-                    <div class="card" style="width: 20rem;">
-                        <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Weather Dashboard</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="https://jimgreasley.github.io/Weather-Dashboard/" class="btn btn-primary">Weather Dashboard</a>
-                        </div>
+            <div class="col mb-4">
+                <div class="card shadow p-3 mb-5 bg-white rounded h-100">
+                    <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Wild Kards</h5>
+                        <p class="card-text">Wild Kards is an application that allows users to enter and search for quotes from their favorite pseudo celebrities, the Kardashians. Wild Kards also allows users to comment on quotes and enter blog-like posts.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/justinkellogg89/project2" target="_blank"
+                            class="btn btn-primary">GitHub</a>
+                        <a href="https://dry-meadow-70247.herokuapp.com/" target="_blank"
+                            class="btn btn-primary">Try It</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card shadow p-3 mb-5 bg-white rounded h-100">
+                    <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Work Day Scheduler</h5>
+                        <p class="card-text">A simple calendar app for scheduling your work day. The hourly timeslots are color coded indicating past hours, the current hour, and future hours.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/JimGreasley/work-day-scheduler" target="_blank"
+                            class="btn btn-primary">GitHub</a>
+                        <a href="https://jimgreasley.github.io/work-day-scheduler/" target="_blank"
+                            class="btn btn-primary">Try It</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card shadow p-3 mb-5 bg-white rounded h-100">
+                    <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather Dashboard</h5>
+                        <p class="card-text">This app displays the current weather conditions and 5-day forecast for a specific city. Cities previously searched for are saved in an array in local storage. The weather for the most recent city in the array will be displayed when the page is first loaded.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/JimGreasley/Weather-Dashboard" target="_blank"
+                            class="btn btn-primary">GitHub</a>
+                        <a href="https://rhubarb-crumble-97219.herokuapp.com/" target="_blank"
+                            class="btn btn-primary">Try It</a>
                     </div>
                 </div>
             </div>
@@ -124,3 +178,76 @@
 </body>
 
 </html>
+
+
+
+<!-- <div class="row">
+    <div class="col-12">
+        <div class="card-deck">
+            <!-- <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 15rem;"> 
+            <div class="card w-33 shadow p-3 mb-5 bg-white rounded">
+                <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Match My Mood</h5>
+                    <p class="card-text">A collaborative project that uses color, sound, images, and more to immerse the user into the mood they have chosen. If they want a pick-me-up they can counter their current mood, or choose to match to the weather or time of day.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/bfeliz/match-my-mood" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                    <a href="https://bfeliz.github.io/match-my-mood/" target="_blank"
+                        class="btn btn-primary">Try It</a>
+                </div>
+            </div>
+
+            <div class="card w-33 shadow p-3 mb-5 bg-white rounded">
+                <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wild Kards</h5>
+                    <p class="card-text">Wild Kards is an application that allows users to enter and search for quotes from their favorite pseudo celebrities, the Kardashians. Wild Kards also allows users to comment on quotes and enter blog-like posts.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/justinkellogg89/project2" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                    <a href="https://dry-meadow-70247.herokuapp.com/" target="_blank"
+                        class="btn btn-primary">Try It</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-12">
+        <!-- <div class="row"> 
+        <div class="card-deck">
+
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 15rem;">
+                <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Work Day Scheduler</h5>
+                    <p class="card-text">A simple calendar app for scheduling your work day. The hourly timeslots are color coded indicating past hours, the current hour, and future hours.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/JimGreasley/work-day-scheduler" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                    <a href="https://jimgreasley.github.io/work-day-scheduler/" target="_blank"
+                        class="btn btn-primary">Try It</a>
+                </div>
+            </div>
+
+            <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 15rem;">
+                <img src="http://placehold.it/250x150" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">This app displays the current weather conditions and 5-day forecast for a specific city. Cities previously searched for are saved in an array in local storage. The weather for the most recent city in the array will be displayed when the page is first loaded.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/JimGreasley/Weather-Dashboard" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                    <a href="https://rhubarb-crumble-97219.herokuapp.com/" target="_blank"
+                        class="btn btn-primary">Try It</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

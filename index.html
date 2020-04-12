@@ -14,27 +14,51 @@
 <body>
 
   <!-- This page is comprised of two containers utilizing the Bootstrap Grid.        -->
-  <!-- The first is defined as a piece of the Navbar.                                -->
+  <!-- The first is the Navbar.                                                      -->
   <!-- The second is a section which lays out the rows and columns containing the    -->
   <!-- "About Me" title, my image and text information describing me.                -->
   <!-- A footer element contains the copyright notification.                         -->
   <!--                                                            RJG  Feb 02, 2020  -->
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg sticky-top">     <!-- navbar-light bg-light-->
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        Robert J ("Jim") Greasley
-      </a>
-      <ul class="navbar-nav ml-auto flex-row">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">Robert J ("Jim") Greasley</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Porfolio</a>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://github.com/JimGreasley" class="text-dark" target="_blank">
+            GitHub
+          </a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="https://linkedin.com/in/jimgreasley" class="text-dark" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="portfolio.html">Porfolio</a>
+        </li>
+      </ul>
+
+      <ul class="nav">
+        <li class="ml-auto flex-row">
+          <div class="btn-group">
+            <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Phone and Email
+            </button>
+            <div class="dropdown-menu dropdown-menu-sm-left dropdown-menu-md-right">
+             <a class="dropdown-item" href="#">602-549-6238</a>
+             <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#">azjimgreasley@gmail.com</a>
+            </div>
+          </div>
         </li>
       </ul>
 
@@ -48,13 +72,13 @@
     <div class="row">
       <div class="col-10 offset-1 mb-3 page-heading">
         <h3>About Me</h3>
-<!--    <hr>   -->
+        <!--    <hr>   -->
       </div>
     </div>
 
     <div class="row">
       <div class="col-10 offset-1">
-        <img src="assets/myphoto2.png" class="img-fluid float-left mr-3" alt="A picture of me">
+        <img src="assets/images/myphoto2.png" class="img-fluid float-left mr-3" alt="A picture of me">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae error eum sint doloremque perspiciatis maxime
           quo nobis neque repellendus corrupti, modi eius maiores dignissimos ea esse fuga possimus. Delectus, expedita.
           Minima voluptas ex assumenda commodi tempora! Alias labore rerum, nisi modi fugit voluptatibus obcaecati, amet
@@ -67,7 +91,7 @@
       </div>
     </div>
     <br>
-    <div class="row justify-content-center">
+    <!-- <div class="row justify-content-center">
       <div class="col-3" >
         <a href="https://github.com/JimGreasley" target="_blank">GitHub</a>
       </div>
@@ -76,11 +100,11 @@
         <a href="https://linkedin.com/in/jimgreasley" target="_blank">LinkedIn</a>
       </div>
     </div>
-    <br> <br>
+    <br> <br> -->
 
   </section>
 
-<!-- this still isn't sticky -->
+  <!-- this still isn't sticky -->
   <footer class="footer mt-auto py-1">
     <div class="container text-center">
       <span class="text-muted"><small>Copyright &copy; </small>

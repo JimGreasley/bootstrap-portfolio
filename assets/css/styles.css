@@ -1,4 +1,9 @@
 
+body {
+    background-color: rgb(104, 210, 190)
+}
+
+
 /*  ---------------------------------------------------------------
     Create page heading class to add a bottom border to separate 
     the page title from the main data on the page.
@@ -13,6 +18,10 @@
     Special formatting for links on Nav bar.  Thank you, Tucker.
     ---------------------------------------------------------------
 */
+
+.navbar {
+    background-color: rgb(255, 185, 160);
+}
 
 .nav-item{
     height: 25px;
