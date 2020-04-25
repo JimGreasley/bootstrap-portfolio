@@ -1,17 +1,15 @@
 # bootstrap-portfolio
 
-  This project is comprised of three pages: an index (About Me), a contact and a portfolio.
-  Each page is built utilizing the Bootstrap Grid - containers, rows and columns.
-  Each page contains a NavBar at top and a sticky footer (still working on this).
+  My professional portfolio is comprised of a single page built utilizing the Bootstrap Grid - containers, rows and columns.  The NavBar at top contains links to my GitHub and LinkedIn profiles, as well as, a dropdown for my phone number and email.
 
-  The index.html page will eventually display a picture of me and a "About Me" description.
-  The portfolio page will eventually show the various projects I have created/worked on
-  during this course.
-  The contact page will eventually allow someone to contact me via an email.
-
+  Below the "About Me" section, are cards outlining the various projects I've worked on and homework assignments that I've completed. They illustrate the various technologies introduced throughout the coding boot camp.
   
-  RJG  Feb 04, 2020
+   
+  RJG  April 24, 2020
 
 
-# Link:
+## GitHub
+
   https://jimgreasley.github.io/bootstrap-portfolio/
+
+  https://github.com/JimGreasley/bootstrap-portfolio

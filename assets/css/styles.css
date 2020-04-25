@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(104, 210, 190)
+    background-color: rgb(200, 200, 250);
 }
 
 
@@ -11,7 +11,7 @@ body {
 */
 
 .page-heading {
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid lightgoldenrodyellow;
 }
 
 /*  ---------------------------------------------------------------
@@ -20,7 +20,8 @@ body {
 */
 
 .navbar {
-    background-color: rgb(255, 185, 160);
+    background-color: lightsalmon;
+    /* background-color: rgb(247, 156, 133); */
 }
 
 .nav-item{
